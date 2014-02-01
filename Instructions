@@ -1,0 +1,21 @@
+Step 1:
+Download the server.py file and client.py file
+
+Step 2:
+The person who wants to host the chat should run the server.py file using the command "python server.py"
+
+Step 3:
+After the server is activated the client can join by using the command "python client.py"
+
+Step 4:
+Enter your respective names and enjoy chatting. Press EXIT to end the chat and close the connection.
+
+Conditions:
+1. This 2-way chat is turn based. The person has to wait for the other person to send his/her message before he/she can send another message. By default the server starts the chat.
+
+2. After a connection is closed, wait for 2 minutes before restarting the server. HACK: To nullify this waiting period, open both server.py and client.py files and change the port number(server.py: line 7 , client.py: line 7) from 12345 to any other number greater than 10000. Make sure that the ports of both files are same.
+
+
+ENJOY :)
+
+P.S - Contribute to this code to enchance it further and to remove glitches.
