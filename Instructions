@@ -15,6 +15,7 @@ Conditions:
 
 2. After a connection is closed, wait for 2 minutes before restarting the server. HACK: To nullify this waiting period, open both server.py and client.py files and change the port number(server.py: line 7 , client.py: line 7) from 12345 to any other number greater than 10000. Make sure that the ports of both files are same.
 
+UPDATE: Waiting Period issue solved. No need to change the port anymore. Enjoy =)
 
 ENJOY :)
 
